@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="102px" height="100px" viewBox="0 0 102 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>bug</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Sprites" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="bug" sketch:type="MSLayerGroup" transform="translate(1.000000, 0.000000)">
+            <path d="M100,56 C100,57.0833333 99.6041667,58.0208333 98.8125,58.8125 C98.0208333,59.6041667 97.0833333,60 96,60 L82,60 C82,67.125 80.6041667,73.1666667 77.8125,78.125 L90.8125,91.1875 C91.6041667,91.9791667 92,92.9166667 92,94 C92,95.0833333 91.6041667,96.0208333 90.8125,96.8125 C90.0625,97.6041667 89.125,98 88,98 C86.875,98 85.9375,97.6041667 85.1875,96.8125 L72.8125,84.5 C72.6041667,84.7083333 72.2916667,84.9791667 71.875,85.3125 C71.4583333,85.6458333 70.5833333,86.2395833 69.25,87.09375 C67.9166667,87.9479167 66.5625,88.7083333 65.1875,89.375 C63.8125,90.0416667 62.1041667,90.6458333 60.0625,91.1875 C58.0208333,91.7291667 56,92 54,92 L54,36 L46,36 L46,92 C43.875,92 41.7604167,91.71875 39.65625,91.15625 C37.5520833,90.59375 35.7395833,89.90625 34.21875,89.09375 C32.6979167,88.28125 31.3229167,87.46875 30.09375,86.65625 C28.8645833,85.84375 27.9583333,85.1666667 27.375,84.625 L26.4375,83.75 L15,96.6875 C14.1666667,97.5625 13.1666667,98 12,98 C11,98 10.1041667,97.6666667 9.3125,97 C8.52083333,96.25 8.09375,95.3229167 8.03125,94.21875 C7.96875,93.1145833 8.29166667,92.1458333 9,91.3125 L21.625,77.125 C19.2083333,72.375 18,66.6666667 18,60 L4,60 C2.91666667,60 1.97916667,59.6041667 1.1875,58.8125 C0.395833333,58.0208333 0,57.0833333 0,56 C0,54.9166667 0.395833333,53.9791667 1.1875,53.1875 C1.97916667,52.3958333 2.91666667,52 4,52 L18,52 L18,33.625 L7.1875,22.8125 C6.39583333,22.0208333 6,21.0833333 6,20 C6,18.9166667 6.39583333,17.9791667 7.1875,17.1875 C7.97916667,16.3958333 8.91666667,16 10,16 C11.0833333,16 12.0208333,16.3958333 12.8125,17.1875 L23.625,28 L76.375,28 L87.1875,17.1875 C87.9791667,16.3958333 88.9166667,16 90,16 C91.0833333,16 92.0208333,16.3958333 92.8125,17.1875 C93.6041667,17.9791667 94,18.9166667 94,20 C94,21.0833333 93.6041667,22.0208333 92.8125,22.8125 L82,33.625 L82,52 L96,52 C97.0833333,52 98.0208333,52.3958333 98.8125,53.1875 C99.6041667,53.9791667 100,54.9166667 100,56 L100,56 Z" id="Shape" fill="#E74C3C" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+            <path d="M70,20 L30,20 C30,14.4583333 31.9479167,9.73958333 35.84375,5.84375 C39.7395833,1.94791667 44.4583333,0 50,0 C55.5416667,0 60.2604167,1.94791667 64.15625,5.84375 C68.0520833,9.73958333 70,14.4583333 70,20 L70,20 Z" id="Path" fill="#000000" filter="url(#filter-2)" sketch:type="MSShapeGroup"></path>
+            <g id="dots" transform="translate(28.250008, 35.750000)" fill="#000000" sketch:type="MSShapeGroup">
+                <circle id="Oval-2" cx="4.375" cy="4.375" r="4.375"></circle>
+                <circle id="Oval-2" cx="4.375" cy="21.2499995" r="4.375"></circle>
+                <circle id="Oval-2" cx="4.375" cy="38.124999" r="4.375"></circle>
+                <circle id="Oval-2" cx="39.375" cy="4.375" r="4.375"></circle>
+                <circle id="Oval-2" cx="39.375" cy="21.2499995" r="4.375"></circle>
+                <circle id="Oval-2" cx="39.375" cy="38.124999" r="4.375"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

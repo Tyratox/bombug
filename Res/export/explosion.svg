@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="176px" height="169px" viewBox="0 0 176 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>explosion</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="110 148.5 64.7405356 172.294309 73.3843241 121.897154 36.7686482 86.2056914 87.3702678 78.8528457 110 33 132.629732 78.8528457 183.231352 86.2056914 146.615676 121.897154 155.259464 172.294309 "></polygon>
+        <polygon id="path-2" points="110 155.833333 56.1196852 184.159891 66.4099097 124.163279 22.8198193 81.6734422 83.0598426 72.9200544 110 18.3333333 136.940157 72.9200544 197.180181 81.6734422 153.59009 124.163279 163.880315 184.159891 "></polygon>
+    </defs>
+    <g id="Sprites" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="explosion" sketch:type="MSLayerGroup" transform="translate(-22.000000, -18.000000)">
+            <g id="Star-1-Copy">
+                <use stroke="#E67E22" stroke-width="14" fill="#F1C40F" fill-rule="evenodd" sketch:type="MSShapeGroup" transform="translate(110.000000, 110.000000) rotate(-43.000000) translate(-110.000000, -110.000000) " xlink:href="#path-1"></use>
+                <use stroke="#E74C3C" stroke-width="6" fill="none" xlink:href="#path-1"></use>
+            </g>
+            <g id="Star-1">
+                <use stroke="#E67E22" stroke-width="14" fill="#F1C40F" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                <use stroke="#E74C3C" stroke-width="6" fill="none" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

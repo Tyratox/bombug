@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="© tyratox.ch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e79-60-SPJ">
+                                <rect key="frame" x="241" y="544" width="118" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="e79-60-SPJ" secondAttribute="height" multiplier="59:18" id="S1k-gE-olc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="BomBug" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsz-0t-Khx">
+                                <rect key="frame" x="162" y="98" width="276" height="88"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="72"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bugLaunchScreen.png" translatesAutoresizingMaskIntoConstraints="NO" id="HwT-Lv-T3g">
+                                <rect key="frame" x="162" y="194" width="276" height="342"/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gsz-0t-Khx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="07O-Jr-zNR"/>
+                            <constraint firstItem="HwT-Lv-T3g" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="142" id="39L-sv-IY4"/>
+                            <constraint firstItem="HwT-Lv-T3g" firstAttribute="top" secondItem="gsz-0t-Khx" secondAttribute="bottom" constant="8" id="9Ec-k0-dzn"/>
+                            <constraint firstItem="HwT-Lv-T3g" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="A11-5Y-Mqr"/>
+                            <constraint firstItem="gsz-0t-Khx" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="80" id="FiS-8O-kfV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HwT-Lv-T3g" secondAttribute="trailing" constant="142" id="Xeb-10-bBH"/>
+                            <constraint firstItem="e79-60-SPJ" firstAttribute="top" secondItem="HwT-Lv-T3g" secondAttribute="bottom" constant="8" id="eAt-rO-T1g"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="e79-60-SPJ" secondAttribute="bottom" constant="20" id="shA-2f-UXO"/>
+                            <constraint firstItem="e79-60-SPJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vJr-Qd-TQF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bugLaunchScreen.png" width="1200" height="984"/>
+    </resources>
+</document>

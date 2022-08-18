@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BV1-FR-VrT">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="BomBug" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8aa-yV-Osq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qHh-Mt-9TT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGt-WW-Gvs">
+                                <rect key="frame" x="126" y="44" width="349" height="122"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="45"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGame:" destination="BV1-FR-VrT" eventType="touchUpInside" id="sgv-gE-zD0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcw-Ty-1qc">
+                                <rect key="frame" x="126" y="239" width="349" height="122"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="45"/>
+                                <state key="normal" title="Credits">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="creditsClicked:" destination="BV1-FR-VrT" eventType="touchUpInside" id="qCx-au-cbq"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gA-MC-LXs">
+                                <rect key="frame" x="65" y="369" width="470" height="211"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Code by Nico Hauser (tyratox.ch)
+
+Sounds:
+"8-bit Coin" Sound by timgormly (freesound.org)
+
+Music:
+"Ouroboros" Kevin MacLeod (incompetech.com) 
+
+Licensed under Creative Commons: By Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/</string>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xcw-Ty-1qc" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="5hY-KZ-pwk"/>
+                            <constraint firstItem="6gA-MC-LXs" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leadingMargin" constant="20" id="8tT-Ny-yy6"/>
+                            <constraint firstItem="xcw-Ty-1qc" firstAttribute="centerY" secondItem="3se-qz-xqx" secondAttribute="centerY" id="Hjs-Is-ciL"/>
+                            <constraint firstItem="6gA-MC-LXs" firstAttribute="top" secondItem="xcw-Ty-1qc" secondAttribute="bottom" constant="20" id="Lro-MR-oZW"/>
+                            <constraint firstItem="6gA-MC-LXs" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="QdR-wG-cxv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6gA-MC-LXs" secondAttribute="trailing" constant="20" id="VzX-es-MO3"/>
+                            <constraint firstItem="qHh-Mt-9TT" firstAttribute="top" secondItem="6gA-MC-LXs" secondAttribute="bottom" constant="20" id="ado-jl-mL9"/>
+                            <constraint firstItem="OGt-WW-Gvs" firstAttribute="top" secondItem="8aa-yV-Osq" secondAttribute="bottom" constant="65" id="ieL-R5-e2k"/>
+                            <constraint firstItem="OGt-WW-Gvs" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="uz8-R6-f1n"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnCredits" destination="xcw-Ty-1qc" id="xXJ-YU-3C7"/>
+                        <outlet property="btnStartGame" destination="OGt-WW-Gvs" id="MOd-21-yhf"/>
+                        <outlet property="creditsText" destination="6gA-MC-LXs" id="NFX-Hm-KEd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="291" y="293"/>
+        </scene>
+    </scenes>
+</document>
